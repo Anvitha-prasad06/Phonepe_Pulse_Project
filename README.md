@@ -1,22 +1,22 @@
 # Phonepe_Pulse_Project
 
-Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly
+#Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly
 
-What is PhonePe Pulse?
+#What is PhonePe Pulse?
 
 The PhonePe Pulse website showcases more than 2000+ Crore transactions by consumers on an interactive map of India. With over 45% market share, PhonePe's data is representative of the country's digital payment habits. The insights on the website and in the report have been drawn from two key sources - the entirety of PhonePe's transaction data combined with merchant and customer interviews. The report is available as a free download on the PhonePe Pulse website and GitHub.
 
 
-Libraries/Modules needed for the project!
+#Libraries/Modules needed for the project!
 
--> Streamlit
--> Plotly 
--> Pandas 
--> mysql.connector 
--> json 
--> git.repo.base 
+1. Streamlit
+2. Plotly 
+3. Pandas 
+4. mysql.connector 
+5. json 
+6. git.repo.base 
 
-Procedure 
+#Procedure 
 
 1. Extract data from the Phonepe pulse Github repository through scripting and
 clone it..
