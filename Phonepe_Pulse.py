@@ -1,4 +1,3 @@
-#
 import pandas as pd
 import mysql.connector as sql
 import streamlit as st
@@ -32,7 +31,6 @@ mydb = sql.connect(host="localhost",
                   )
 mycursor = mydb.cursor(buffered=True)
 
-
 # Creating option menu in the side bar
 with st.sidebar:
     selected = option_menu("Menu",["Home","Top Charts","Explore Data","About"], 
@@ -57,8 +55,7 @@ if selected == "Home":
         st.markdown("### :In this streamlit web app you can visualize the phonepe pulse data and gain lot of insights on                      transactions, number of users, top 10 state, district, pincode and which brand has most number of users and so on. Bar                       charts, Pie charts and Geo map visualization are used to get some insights.")
     with col2:
         st.image("phn2.jpg",width=350)
-        
-        
+               
 # MENU 2 - TOP CHARTS
 if selected == "Top Charts":
     st.markdown("## :orange[Top Charts]")
@@ -232,8 +229,6 @@ if selected == "Explore Data":
         
             fig.update_geos(fitbounds="locations", visible=False)
             st.plotly_chart(fig,use_container_width=True)
-
-
 
 # BAR CHART - TOP PAYMENT TYPE
         st.markdown("## :orange[Top Payment Type]")
